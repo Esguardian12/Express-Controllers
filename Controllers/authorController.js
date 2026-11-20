@@ -1,5 +1,5 @@
 const db = require ("../db");
-const CustomNotFoundError = require("../errors/CustomNotFoundError");
+const CustomNotFoundError = require("../Errors/CustomNotFoundError");
 
 async function getAuthorById(req, res) {
     const { authorId } = req.params;
